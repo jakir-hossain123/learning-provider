@@ -1,15 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:providers/HomePage.dart';
-import 'package:providers/buisness_logic/counter.dart';
+
 
 void main (){
-  runApp(MultiProvider(
-      providers: [
-        ChangeNotifierProvider(create: (context) => Counter() ,)
-      ],
-      child: MyApp()));
+  runApp(MyApp());
 }
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -17,8 +10,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(colorScheme: ColorScheme.fromSeed(seedColor: Colors.red.shade800)),
-      home: Homepage(),
+      home: HomePage(),
     );
   }
 }
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+             body: Center(child: Text("Hello"),),
+    );
+  }
+}
+
+
+

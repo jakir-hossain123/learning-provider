@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "653141782895",
+    "project_id": "another-map-and-walk-track",
+    "storage_bucket": "another-map-and-walk-track.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653141782895:android:5227f62ad830529df1789a",
+        "android_client_info": {
+          "package_name": "com.example.providers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa_6nIgJJjZTGzeruVCzHPfyoFnVUwQhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
